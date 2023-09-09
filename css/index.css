@@ -108,13 +108,19 @@ header {
 
 
 
- nav{
+ .header-nav{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
      margin-top: 40px; 
     margin-left: 200px;
     margin-right: 200px;
 } 
+
+.header-nav-div{
+    display: flex;
+    justify-content: space-between;
+}
 
 .nav-div-a{
     color: rgba(255, 255, 255, 1)
